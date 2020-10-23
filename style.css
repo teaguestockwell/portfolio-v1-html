@@ -12,11 +12,27 @@ body{
   overflow:hidden;
 }
 
+.col{
+  column-count: 2;
+  column-gap: 500;
+  vertical-align: top;
+}
 
+
+
+div.col{
+  text-align: left;
+  vertical-align: top;
+}
 
 ul{
   margin:0;
   padding:0;
+}
+
+.pad{
+  margin-top: 100px;
+  align-content: center;
 }
 
 
@@ -86,6 +102,7 @@ header a:hover{
   min-height:400px;
   text-align:center;
   color:#ffffff;
+  padding-bottom: 100;
 }
 
 #showcase h1{
@@ -97,6 +114,7 @@ header a:hover{
 #showcase p{
   font-size:20px;
 }
+
 
 
 
