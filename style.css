@@ -39,7 +39,7 @@ ul{
 .dark{
   padding:15px;
   background:#35424a;
-  color:#ffffff;
+  color:#DEffff;
   margin-top:10px;
   margin-bottom:10px;
 }
@@ -47,13 +47,13 @@ ul{
 footer{
   padding:0px;
   margin-bottom:0px;
-  color:#ffffff;
+  color:#DEffff;
   background:#0c548b;
   position:fixed;
   left: 0px; bottom:0px; right:0px; 
 }
 footer a{
-  color:#ffffff;
+  color:#DEffff;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -68,14 +68,14 @@ footer li{
 /* Header **/
 header{
   background:#0c548b;
-  color:#ffffff;
+  color:#DEffff;
   padding-top:30px;
   min-height:70px;
 }
 
 
 header a{
-  color:#ffffff;
+  color:#DEffff;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -86,19 +86,18 @@ header a{
   background-image: url("code.jpg");
 
   /* Set a specific height */
-  height: 300px; 
+
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
-  
     min-height: 100vh;
     max-height: 200vh;
     position: relative;
-    transform-style: preserve-3d;
-    width: 100vw;
+    transform-style: flat;
+  
 }
 
 
@@ -135,10 +134,7 @@ header nav{
   margin-top:10px;
 }
 
-header .highlight, header .current a{
-  color:#e8491d;
-  font-weight:bold;
-}
+
 
 header a:hover{
   color:#cccccc;
@@ -149,7 +145,7 @@ header a:hover{
 #showcase{
   min-height:400px;
   text-align:center;
-  color:#ffffff;
+  color:#DEffff;
   padding-bottom: 10;
 }
 
