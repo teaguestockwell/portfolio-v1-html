@@ -35,6 +35,12 @@ ul{
   align-content: center;
 }
 
+.padbt{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  align-content: center;
+}
+
 
 .dark{
   padding:15px;
@@ -106,15 +112,15 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
 }
 
 header #branding{
   float:left;
 }
 
-header #branding h1{
-  margin:0;
+header h1{
+  padding: 0 10px 0 10px;
 }
 
 a {color:#0c548b; /*new colour*/}
@@ -131,8 +137,16 @@ a span {color:#ffffff; /*originalcolour*/}
 
 header nav{
   float:right;
-  margin-top:10px;
+  margin-top:5px;
 }
+
+header li{
+  display: inline;
+  margin:10;
+  padding:10;
+  text-align: center;
+}
+
 
 
 
@@ -171,6 +185,7 @@ header a:hover{
 }
 
 #boxes .box{
+  font-size:20px;
   float:left;
   text-align: center;
   width:45%;
@@ -207,10 +222,62 @@ article#main-col{
 /* Services */
 ul#services li{
   list-style: none;
-  padding:20px;
+  padding:10px;
   border: #cccccc solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
+}
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #cc3131;
+  color: white;
+}
+
+.fa-instagram {
+  background: #CF3E70;
+  color: white;
+}
+
+.fa-mail-reply{
+  background: #0c548b;
+  color: white;
 }
 
 
