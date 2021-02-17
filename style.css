@@ -13,15 +13,13 @@ body{
 }
 
 .col{
-  columns: 3;
-  columns:300px;
-
+  columns: 40rem auto;;
+  /*columns:300px; */
+  width: calc(100% - 50px);
 }
 
-
-
 div.col{
-  text-align: left;
+  text-align: center;
   vertical-align: top;
 }
 
