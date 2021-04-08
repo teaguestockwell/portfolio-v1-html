@@ -13,14 +13,14 @@ body{
 }
 
 .col{
-  columns: 40rem auto;;
+  columns: 27rem 2;
   /*columns:300px; */
   width: calc(100% - 50px);
 }
 
 div.col{
-  text-align: center;
-  vertical-align: top;
+  text-align: left;
+  /* vertical-align: bottom; */
 }
 
 ul{
@@ -156,7 +156,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  text-align:center;
+  text-align:left;
   color:#DEffff;
   padding-bottom: 10;
 }
