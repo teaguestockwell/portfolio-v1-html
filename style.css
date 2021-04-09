@@ -87,7 +87,7 @@ header a{
 
 .parallax { 
   /* The image used */
-  background-image: url("code.jpg");
+  background-image: url("./res/code.png");
 
   /* Set a specific height */
 
