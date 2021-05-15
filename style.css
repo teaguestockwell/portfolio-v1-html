@@ -184,9 +184,10 @@ header a:hover{
   width:100%;
   color:#ffffff;
   padding-bottom: 100px;
+  
 }
 
-#boxes .box p{
+#boxes .box p,h3{
 padding-left: 20px;
 padding-right: 20px;
 }
